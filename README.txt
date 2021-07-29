@@ -2,4 +2,4 @@
 Hi..
 How are you?
 Hello
->>>>>>> css-assignments
+>>>>>>> js-assignments
