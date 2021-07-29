@@ -1,3 +1,6 @@
+<<<<<<< HEAD
 Hi..
-Hello..
 How are you?
+=======
+Hello World
+>>>>>>> css-assignments
