@@ -1,0 +1,102 @@
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~
+$ cd OneDrive
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive
+$ cd Desktop
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop
+$ cd Project_dir
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop/Project_dir (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/K.Bhargava Pavani/OneDrive/Desktop/project_dir/.git/
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop/Project_dir (master)
+$ git add .
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop/Project_dir (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   info.txt
+
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop/Project_dir (master)
+$ git commit -m "info file is added"
+[master 981205f] info file is added
+ 1 file changed, 1 insertion(+)
+ create mode 100644 info.txt
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop/Project_dir (master)
+$ git remote add origin https://github.com/K-BhargavaPavani/freshersbatch-oct16.git
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop/Project_dir (master)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/K-BhargavaPavani/freshersbatch-oct16.git'
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop/Project_dir (master)
+$ git branch -M main
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop/Project_dir (main)
+$ git push -u origin main
+fatal: Response status code does not indicate success: 401 (Unauthorized).
+Enumerating objects: 21, done.
+Counting objects: 100% (21/21), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (21/21), 1.81 KiB | 46.00 KiB/s, done.
+Total 21 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/K-BhargavaPavani/freshersbatch-oct16.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop/Project_dir (main)
+$
+
+
+
+
+
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~
+$ cd OneDrive
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive
+$ cd Desktop
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop
+$ cd Assignments
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop/Assignments (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/K.Bhargava Pavani/OneDrive/Desktop/Assignments/.git/
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop/Assignments (master)
+$ git config --global user.username K-BhargavaPavani
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop/Assignments (master)
+$ git remote add origin https://github.com/K-BhargavaPavani/freshersbatch-oct16.git
+error: remote origin already exists.
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop/Assignments (master)
+$ git push origin master
+Enumerating objects: 54, done.
+Counting objects: 100% (54/54), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (44/44), done.
+Writing objects: 100% (54/54), 5.02 KiB | 146.00 KiB/s, done.
+Total 54 (delta 13), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (13/13), done.
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/K-BhargavaPavani/freshersbatch-oct16/pull/new/master
+remote:
+To https://github.com/K-BhargavaPavani/freshersbatch-oct16.git
+ * [new branch]      master -> master
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop/Assignments (master)
+$
+

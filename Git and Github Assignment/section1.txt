@@ -1,0 +1,136 @@
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~
+$ cd OneDrive
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive
+$ cd Desktop
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop
+$ mkdir Assignments
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop
+$ cd Assignments
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop/Assignments
+$ git init
+Initialized empty Git repository in C:/Users/K.Bhargava Pavani/OneDrive/Desktop/Assignments/.git/
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop/Assignments (master)
+$ touch README.txt
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop/Assignments (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        README.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop/Assignments (master)
+$ git add README.txt
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop/Assignments (master)
+$ git commit -m "Adding README.txt file"
+[master (root-commit) cf52b63] Adding README.txt file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.txt
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop/Assignments (master)
+$ git branch html-assignments
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop/Assignments (master)
+$ git checkout html-assignments
+Switched to branch 'html-assignments'
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop/Assignments (html-assignments)
+$ git status
+On branch html-assignments
+nothing to commit, working tree clean
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop/Assignments (html-assignments)
+$ git status
+On branch html-assignments
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        html1.html
+        html2.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop/Assignments (html-assignments)
+$ git add *.html
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop/Assignments (html-assignments)
+$ git status
+On branch html-assignments
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   html1.html
+        new file:   html2.html
+
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop/Assignments (html-assignments)
+$ git commit -m "new files html1 and html2"
+[html-assignments 96bc8b5] new files html1 and html2
+ 2 files changed, 2 insertions(+)
+ create mode 100644 html1.html
+ create mode 100644 html2.html
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop/Assignments (html-assignments)
+$ git status
+On branch html-assignments
+nothing to commit, working tree clean
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop/Assignments (html-assignments)
+$ git status
+On branch html-assignments
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   html1.html
+        modified:   html2.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop/Assignments (html-assignments)
+$ git commit -m "changes are made"
+On branch html-assignments
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   html1.html
+        modified:   html2.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop/Assignments (html-assignments)
+$ git add *.html
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop/Assignments (html-assignments)
+$ git commit -m "changes are made in html files"
+[html-assignments fa24d41] changes are made in html files
+ 2 files changed, 16 insertions(+), 2 deletions(-)
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop/Assignments (html-assignments)
+$ git checkout master
+Switched to branch 'master'
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop/Assignments (master)
+$ git merge html-assignments
+Updating cf52b63..fa24d41
+Fast-forward
+ html1.html | 8 ++++++++
+ html2.html | 8 ++++++++
+ 2 files changed, 16 insertions(+)
+ create mode 100644 html1.html
+ create mode 100644 html2.html
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop/Assignments (master)
+$ git branch -d html-assignments
+Deleted branch html-assignments (was fa24d41).
+
+K.Bhargava Pavani@LAPTOP-OCJCDNSR MINGW64 ~/OneDrive/Desktop/Assignments (master)
+$
